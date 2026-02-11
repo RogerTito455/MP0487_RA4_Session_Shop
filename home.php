@@ -1,6 +1,7 @@
 <?php
 session_start();
-session_unset();
+//Delete session_unset(); to prevent deleting all the variables
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
